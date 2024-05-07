@@ -9,6 +9,8 @@ import WebServiceModule from "./webservice";
 import UserModule from "./user";
 import RoleModule from "./role";
 import { Client } from "../../client";
+import CourseModule from "./course";
+import EnrolModule from "./enrol";
 
 /**
  * Functions relating to core Moodle operations.
@@ -39,6 +41,16 @@ export default class CoreModule extends Module {
   public readonly role: RoleModule;
 
   /**
+   * The module containing functions for course-related actions.
+   */
+  public readonly course: CourseModule;
+
+  /**
+   * The module containing functions for enrolment-related actions.
+   */
+  public readonly enrol: EnrolModule;
+
+  /**
    * Initializes the module.
    *
    * @param client The parent client of this module.
@@ -50,5 +62,7 @@ export default class CoreModule extends Module {
     this.webservice = new WebServiceModule(client);
     this.user = new UserModule(client);
     this.role = new RoleModule(client);
+    this.course = new CourseModule(client);
+    this.enrol = new EnrolModule(client);
   }
 }

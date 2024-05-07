@@ -7,6 +7,7 @@ title: gradereport
 <a name="CoreModule"></a>
 
 ## CoreModule ⇐ <code>Module</code>
+
 Functions for grade-related operations.
 
 **Kind**: global class  
@@ -15,10 +16,9 @@ Functions for grade-related operations.
 <a name="new_CoreModule_new"></a>
 
 ### new CoreModule(client)
+
 Initializes the module.
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param  | Type                | Description                       |
+| ------ | ------------------- | --------------------------------- |
 | client | <code>Client</code> | The parent client of this module. |
-

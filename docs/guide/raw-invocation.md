@@ -12,7 +12,8 @@ const client = new Joodle({
   token: "abcdef123456",
 });
 
-client.invoke("core_user_get_users_by_field")
+client
+  .invoke("core_user_get_users_by_field")
   .then((response) => console.log(response))
   .catch((error) => console.error(error));
 ```

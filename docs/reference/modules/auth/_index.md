@@ -7,6 +7,7 @@ title: auth
 <a name="AuthModule"></a>
 
 ## AuthModule ⇐ <code>Module</code>
+
 Functions relating to authentication in Moodle (specifically self-registration).
 
 **Kind**: global class  
@@ -15,10 +16,9 @@ Functions relating to authentication in Moodle (specifically self-registration).
 <a name="new_AuthModule_new"></a>
 
 ### new AuthModule(client)
+
 Initializes the module.
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param  | Type                | Description                       |
+| ------ | ------------------- | --------------------------------- |
 | client | <code>Client</code> | The parent client of this module. |
-

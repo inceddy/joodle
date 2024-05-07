@@ -7,6 +7,7 @@ title: core
 <a name="CoreModule"></a>
 
 ## CoreModule ⇐ <code>Module</code>
+
 Functions relating to core Moodle operations.
 
 **Kind**: global class  
@@ -15,10 +16,9 @@ Functions relating to core Moodle operations.
 <a name="new_CoreModule_new"></a>
 
 ### new CoreModule(client)
+
 Initializes the module.
 
-
-| Param | Description |
-| --- | --- |
+| Param  | Description                       |
+| ------ | --------------------------------- |
 | client | The parent client of this module. |
-
