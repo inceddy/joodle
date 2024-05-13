@@ -8,5 +8,4 @@ coverage
 .env
 tmp
 temp
-dist
 src/sandbox.ts
