@@ -1,8 +1,8 @@
 import { FunctionResponse } from "../../../functions";
 import { Option } from "../../shared";
 export interface DuplicateCourseInput {
-    courseId: number;
-    categoryId: number;
+    courseid: number;
+    categoryid: number;
     fullname: string;
     shortname: string;
     visible?: boolean;
