@@ -16,7 +16,7 @@ export default class CourseModule extends Module {
   public async duplicateCourse(
     input: DuplicateCourseInput
   ): Promise<DuplicateCourseResponse> {
-    return (await this.client.invoke("core_course_view_course", {
+    return (await this.client.invoke("core_course_duplicate_course", {
       ...input,
       visible: input.visible ? 1 : 0,
     })) as DuplicateCourseResponse;
