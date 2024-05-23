@@ -140,8 +140,8 @@ describe("The core.course module", () => {
   // Duplicate Course
   describe("the duplicateCourse() function", () => {
     const input = {
-      courseId: 1,
-      categoryId: 2,
+      courseid: 1,
+      categoryid: 2,
       fullname: "Test Course",
       shortname: "test",
       visible: true,
